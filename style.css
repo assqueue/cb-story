@@ -1,0 +1,71 @@
+body{
+  background-color: #0B0B0B; 
+}
+
+#pictures{
+  height:300px;
+}
+
+#intro-text{
+  
+  color:lightsalmon;
+  
+}
+
+#first-section1{
+  text-align:center;
+  background-color:#212121;
+  padding: 10px;
+
+}
+
+#first-section2{
+  text-align:center;
+  background-color:#424242;
+  padding: 10px;
+}
+
+#intro{
+  background-color:black;
+  padding:10px;
+}
+
+#para1{
+  color:yellow;
+}
+
+#part1{
+  background-color: #003232;
+  padding:10px; 
+}
+
+#quote{
+  color: #e34b18
+}
+
+#part1text{
+  color:#e3ccac  
+}
+
+#zoomchoice{
+  color:#b0e0e6
+}
+
+#part2{
+  background-color: #030018;
+  padding:10px; 
+}
+
+#lose1{
+  background-color:#630303;
+  padding:10px;
+}
+
+#failure{
+  color:#ffffff;
+}
+
+#ending{
+  background-color:#6ec5a0;
+  padding:10px;
+}
