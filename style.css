@@ -1,5 +1,109 @@
+@font-face {
+  font-family: 'GTWalsheim';
+  /* IE9 Compat Modes */
+  src: url('../fonts/GT-Walsheim-Regular.eot');
+  src: url('../fonts/GT-Walsheim-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8*/
+  url('../fonts/GT-Walsheim-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+  url('fonts/GT-Walsheim-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+  url('fonts/GT-Walsheim-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('fonts/GT-Walsheim-Regular.svg#svgFontName') format('svg');
+  /* Legacy iOS */
+  font-weight: 400;
+  font-style: normal;
+}
+/* @font-face {
+  font-family: 'GTWalsheimOblique';
+  /* IE9 Compat Modes */
+  src: url('../fonts/GT-Walsheim-Regular-Oblique.eot');
+  src: url('../fonts/GT-Walsheim-Regular-Oblique.eot?#iefix') format('embedded-opentype'), /* IE6-IE8*/
+  url('../fonts/GT-Walsheim-Regular-Oblique.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/GT-Walsheim-Regular-Oblique.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/GT-Walsheim-Regular-Oblique.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/GT-Walsheim-Regular-Oblique.svg#svgFontName') format('svg');
+  /* Legacy iOS */
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'GTWalsheimMedium';
+  /* IE9 Compat Modes */
+  src: url('../fonts/GT-Walsheim-Medium.eot');
+  src: url('../fonts/GT-Walsheim-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8*/
+  url('../fonts/GT-Walsheim-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/GT-Walsheim-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/GT-Walsheim-Medium.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/GT-Walsheim-Medium.svg#svgFontName') format('svg');
+  /* Legacy iOS */
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GTWalsheimMediumOblique';
+  /* IE9 Compat Modes */
+  src: url('../fonts/GT-Walsheim-Medium-Oblique.eot');
+  src: url('../fonts/GT-Walsheim-Medium-Oblique.eot?#iefix') format('embedded-opentype'), /* IE6-IE8*/
+  url('../fonts/GT-Walsheim-Medium-Oblique.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/GT-Walsheim-Medium-Oblique.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/GT-Walsheim-Medium-Oblique.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/GT-Walsheim-Medium-Oblique.svg#svgFontName') format('svg');
+  /* Legacy iOS */
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'GTWalsheimBold';
+  /* IE9 Compat Modes */
+  src: url('../fonts/GT-Walsheim-Bold.eot');
+  src: url('../fonts/GT-Walsheim-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8*/
+  url('../fonts/GT-Walsheim-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/GT-Walsheim-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/GT-Walsheim-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/GT-Walsheim-Bold.svg#svgFontName') format('svg');
+  /* Legacy iOS */
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GTWalsheimBoldOblique';
+  /* IE9 Compat Modes */
+  src: url('../fonts/GT-Walsheim-Bold-Oblique.eot');
+  src: url('../fonts/GT-Walsheim-Bold-Oblique.eot?#iefix') format('embedded-opentype'), /* IE6-IE8*/
+  url('../fonts/GT-Walsheim-Bold-Oblique.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/GT-Walsheim-Bold-Oblique.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/GT-Walsheim-Bold-Oblique.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/GT-Walsheim-Bold-Oblique.svg#svgFontName') format('svg');
+  /* Legacy iOS */
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'GTWalsheimBlack';
+  /* IE9 Compat Modes */
+  src: url('../fonts/GT-Walsheim-Black.eot');
+  src: url('../fonts/GT-Walsheim-Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8*/
+  url('../fonts/GT-Walsheim-Black.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/GT-Walsheim-Black.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/GT-Walsheim-Black.ttf') format('truetype'), /* Safari, Android, iOS */
+  url('../fonts/GT-Walsheim-Black.svg#svgFontName') format('svg');
+  /* Legacy iOS */
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GTWalsheimBlackOblique';
+  /* IE9 Compat Modes */
+  src: url('../fonts/GT-Walsheim-Black-Oblique.eot');
+  src: url('../fonts/GT-Walsheim-Black-Oblique.eot?#iefix') format('embedded-opentype'), /* IE6-IE8*/
+  url('../fonts/GT-Walsheim-Black-Oblique.woff2') format('woff2'), /* Super Modern Browsers */
+  url('../fonts/GT-Walsheim-Black-Oblique.woff') format('woff'), /* Pretty Modern Browsers */
+  url('../fonts/GT-Walsheim-Black-Oblique.ttf') format('truetype'); /* Safari, Android, iOS */
+  font-weight: 900;
+  font-style: italic;
+}
+
 body{
-  background-color: #0B0B0B; 
+  background-color: #333333; 
+  font-family: 'GTWalsheim';
 }
 
 #pictures{
@@ -8,13 +112,13 @@ body{
 
 #intro-text{
   
-  color:lightsalmon;
+  color:#FCD751;
   
 }
 
 #first-section1{
   text-align:center;
-  background-color:#212121;
+  background-color:#333333;
   padding: 10px;
 
 }
@@ -31,33 +135,33 @@ body{
 }
 
 #para1{
-  color:yellow;
+  color:#FFE81F;
 }
 
 #part1{
-  background-color: #003232;
+  background-color: #FCD751;
   padding:10px; 
 }
 
 #quote{
-  color: #e34b18
+  color: black;
 }
 
 #part1text{
-  color:#e3ccac  
+  color:#333333  
 }
 
 #zoomchoice{
-  color:#b0e0e6
+  color:#333333;
 }
 
 #part2{
-  background-color: #030018;
+  background-color: #00D5D5;
   padding:10px; 
 }
 
 #lose1{
-  background-color:#630303;
+  background-color:#FB4226;
   padding:10px;
 }
 
@@ -66,6 +170,18 @@ body{
 }
 
 #ending{
-  background-color:#6ec5a0;
+  background-color:darkgreen;
   padding:10px;
+}
+
+.ZCOOL{
+    font-weight:bold;
+    font-family:'ZCOOL Kuaile' , cursive;
+}
+
+a{
+	color:black !important;
+	font-size: 22px !important;
+	text-decoration: underline !important;
+	
 }
